@@ -1,0 +1,15 @@
+# Compiled files and dependencies from backend (Java/Maven)
+/ecommerce-backend/target/
+/ecommerce-backend/.mvn/
+*.log
+.idea/
+*.iml
+
+# Dependencies from frontend (Node)
+/phoenix-ui/node_modules/
+/phoenix-ui/dist/
+/phoenix-ui/.env*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
