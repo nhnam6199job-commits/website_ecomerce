@@ -9,6 +9,7 @@
 /phoenix-ui/node_modules/
 /phoenix-ui/dist/
 /phoenix-ui/.env*
+node_modules/
 
 # OS-generated files
 .DS_Store
