@@ -86,7 +86,7 @@ public class ProductService {
     }
 
     // Helper method to map Entity to DTO
-    private ProductResponse mapToProductResponse(Product product) {
+    public ProductResponse mapToProductResponse(Product product) {
         return ProductResponse.builder()
                 .id(product.getId())
                 .name(product.getName())
